@@ -1,0 +1,60 @@
+/* apply css properties to body tag */
+
+body {
+    position: absolute;
+    left: 0%;
+    text-align: center;
+    background-color: darkgray;
+}
+
+/* apply css properties to container class */
+
+.container {
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        height: 100%;
+        text-align: center;
+        background-color: grey;
+}
+
+/* apply css properties to button tag */
+
+button {
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        border-color: dimgray;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+        outline: none;
+        word-spacing: 3px;
+    }
+
+    /* apply hover effect to button tag */
+button.hover {
+     background-color: dimgray;
+     border-color: rgb(15, 124, 160);
+     color: darkgrey;
+     border-radius: 10px;
+}
+
+
+/* apply css properties to h2 tag */
+
+h2 {
+    color: black;
+    margin: 0 100px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* apply css properties to h1 tag */
+
+h1 {
+        font-size: 50px;
+        color: black;
+        text-align: center;
+        padding-left: 7%;
+}
